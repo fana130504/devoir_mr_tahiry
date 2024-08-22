@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Déterminer la classe IP</title>
+    <style>
+        div{
+            
+            font-size: 20px;
+            font-style:italic;
+            background-color: rgb(231, 236, 224);
+        }
+
+
+    </style>
+</head>
+<body>
+   <div><fieldset>
+        <legend>adresse_IP</legend>
+    <h2>Entrez une adresse IP pour déterminer sa classe</h2>
+    <form action="/cgi-bin/determine_classe_ip.cgi" method="get">
+        <label for="ip">Adresse IP :</label>
+        <input type="text" id="ip" name="ip" placeholder="entrez l'adresse IP" required><br>
+        <input type="submit" value="Envoyer">
+        <input type="reset" value="effacer">
+    </form>
+</fieldset>
+<img src="mit.jpg" alt="image" width="100%">
+</div> 
+</body>
+</html>
